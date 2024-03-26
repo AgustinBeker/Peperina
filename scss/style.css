@@ -6108,8 +6108,8 @@ textarea.form-control-lg {
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 10rem;
+  bottom: 10rem;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -6117,7 +6117,7 @@ textarea.form-control-lg {
   padding: 0;
   color: #fff;
   text-align: center;
-  /* background: none; */
+  background: black;
   border: 0;
   opacity: 0.25;
   transition: opacity 0.15s ease;
@@ -6128,14 +6128,14 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.carousel-control-prev:hover, .carousel-control-prev:focus,
+/* .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
   color: #fff;
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
-}
+} */
 
 .carousel-control-prev {
   left: 0;
