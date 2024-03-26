@@ -498,6 +498,7 @@ button:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 ::-moz-focus-inner {
@@ -12094,7 +12095,7 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background: rgba(255, 30, 110, 0.71);
+  background: white;
   align-items: center; }
 
 .logo {
